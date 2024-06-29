@@ -1,0 +1,8 @@
+{
+  "addresses": {
+    "ECDSAStakeRegistry": "0x27e1F5400E43Ad2c10Ae314A5E2fabDCE13fD044",
+    "ECDSAStakeRegistryImplementation": "0x49251aed6CDA92a77DEF4Cc82A470A119ACd61AC",
+    "HelloWorldServiceManagerImplementation": "0x8fbEeFF3bb000DaDC2E2BC7c9FefCcb59d89D9Ab",
+    "HelloWorldServiceManagerProxy": "0x27b3ac5618D6a23C4bEEe47C466E610bf99508Ad"
+  }
+}

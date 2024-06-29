@@ -1,0 +1,83 @@
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInBackground {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Adjust height as needed */
+    width: 100%; /* Ensures the div covers the entire width */
+    background: linear-gradient(135deg, #8e2de2, #4a00e0);
+
+
+    padding: 18px;
+    box-sizing: border-box; /* Ensures padding is included in the width */
+    animation: fadeInBackground 1.5s ease-in-out; /* Fade in animation for the background */
+  }
+  
+  .Purpose {
+    font-family: 'Merriweather', serif; /* Apply Merriweather font */
+    font-size: 3.0em;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    color: #feb32b; /* Example text color */
+    animation: fadeIn 1s ease-in-out; /* Fade in animation */
+    font-size: 72px;
+  }
+  
+  
+  .heading {
+    font-family: 'Merriweather', serif; /* Apply Merriweather font */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #e85154;/* Example text color */
+    animation: fadeIn 1.2s ease-in-out; /* Fade in animation */
+  }
+  
+  .wallet-button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeIn 1.4s ease-in-out; /* Fade in animation */
+  }
+  
+  .wallet-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05); /* Slightly enlarges the button on hover */
+    cursor: pointer;
+  }
+.navigate-button{
+    padding: 15px 30px;
+    font-size: 1.2em;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    animation: fadeIn 1.4s ease-in-out; /* Fade in animation */
+}

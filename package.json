@@ -1,0 +1,20 @@
+{
+  "name": "hello-world-avs",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@types/node": "^20.12.12",
+    "bls-signatures": "^2.0.3",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.7.2",
+    "fs-extra": "^10.0.0",
+    "snarkjs": "^0.7.4"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^11.0.4",
+    "typescript": "^5.4.5"
+  }
+}
